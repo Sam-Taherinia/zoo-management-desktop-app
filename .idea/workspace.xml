@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Existings/ZOO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Existings/ZOO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IO files/SuperAdmin.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/IO files/SuperAdmin.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IO files/Visitors.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/IO files/Visitors.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zoo/app/controller/ManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zoo/app/controller/ManagerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zoo/app/utils/ZOO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zoo/app/utils/ZOO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/SuperAdminChangeInfo.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/SuperAdminChangeInfo.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/SuperAdminManageM.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/SuperAdminManageM.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/forgetpass.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/forgetpass.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/registration.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/registration.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/SuperAdminChangeInfo.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/SuperAdminChangeInfo.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/SuperAdminManageM.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/SuperAdminManageM.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/forgetpass.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/forgetpass.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/forgetpass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/forgetpass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/registration.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/registration.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/superadmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/superadmin.java" afterDir="false" />
-    </list>
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -495,6 +475,7 @@
       <workItem from="1759754934859" duration="2913000" />
       <workItem from="1759758184092" duration="135000" />
       <workItem from="1759758633284" duration="1534000" />
+      <workItem from="1759764948993" duration="55000" />
     </task>
     <servers />
   </component>
