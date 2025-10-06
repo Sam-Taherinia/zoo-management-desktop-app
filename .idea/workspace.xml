@@ -201,6 +201,9 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -335,6 +338,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -467,7 +471,7 @@
       <workItem from="1758989011435" duration="1129000" />
       <workItem from="1758990451543" duration="823000" />
       <workItem from="1758993217487" duration="181000" />
-      <workItem from="1759754934859" duration="1828000" />
+      <workItem from="1759754934859" duration="2460000" />
     </task>
     <servers />
   </component>
