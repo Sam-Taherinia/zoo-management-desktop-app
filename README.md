@@ -1,6 +1,6 @@
 # 🦁 Zoo Management App
 
-![Project Preview](project%20preview.png)
+<img width="996" height="498" alt="project preview" src="https://github.com/user-attachments/assets/7b8aed9e-9815-41b6-99f5-e82932c91a98" />
 
 A comprehensive JavaFX-based zoo management system that provides role-based access control and management capabilities for different types of users including visitors, zookeepers, managers, and super administrators.
 
