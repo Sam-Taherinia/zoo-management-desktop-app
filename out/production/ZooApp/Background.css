@@ -1,0 +1,7 @@
+.root{
+    
+    /*-fx-background-image:url('images/prince-david-454229-unsplash.jpg') ;*/
+    -fx-background-image:url('/resources/images/prince-david-454229-unsplash.jpg') ;
+    -fx-background-size: cover ;
+
+}

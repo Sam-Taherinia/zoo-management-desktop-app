@@ -1,0 +1,68 @@
+package sample;
+
+import javafx.application.Platform;
+import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.stage.Stage;
+
+import java.net.URL;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.ResourceBundle;
+
+public class manager implements Initializable{
+
+
+    @FXML
+    private Button btn_log_out;
+
+    @FXML
+    private Label lbl_time;
+
+    @FXML
+    public void backToMainForm(javafx.event.ActionEvent event){
+
+        try {
+
+            Stage stage = (Stage) this.btn_log_out.getScene().getWindow();
+            stage.close();
+            forgetpass.backToMainSection();
+
+
+        }catch (Exception ex){
+
+            ex.printStackTrace();
+
+        }
+
+    }
+
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
+
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                while (true) {
+
+                    DateTimeFormatter dtf = DateTimeFormatter.ofPattern("HH:mm:ss");
+                    LocalDateTime now = LocalDateTime.now();
+                    Platform.runLater(new Runnable() {
+                        @Override
+                        public void run() {
+                            lbl_time.setText(dtf.format(now));
+                        }
+                    });
+                    try {
+                        Thread.sleep(1000);
+                    } catch (InterruptedException ex) {
+                        break;
+                    }
+                }
+            }
+        }).start();
+
+    }
+}
