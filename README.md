@@ -267,8 +267,7 @@ _(Add screenshots of your application here)_
 
 For support, please contact:
 
-- Email: meysamtaherinia@yahoo.com
-- Phone: 921 604 3785
+- Email: meysamtaherinia76@gmail.com
 
 ## 📄 License
 

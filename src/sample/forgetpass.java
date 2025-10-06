@@ -54,7 +54,7 @@ public class forgetpass implements Initializable {
             Pane root = (Pane) loader.load(Paths.get("src/sample/sample.fxml").toUri().toURL());
 
             register register = (register) loader.getController();
-            registerStage.setTitle("MeysamTN ZOO !");
+            registerStage.setTitle("Zoo Management App");
             registerStage.setScene(new Scene(root, 1000, 500));
             registerStage.setResizable(false);
             registerStage.show();

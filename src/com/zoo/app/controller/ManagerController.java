@@ -43,7 +43,7 @@ public class ManagerController implements Initializable {
             Pane root = (Pane) loader.load(Paths.get("src/resources/sample.fxml").toUri().toURL());
 
             MainController main = (MainController) loader.getController();
-            mainStage.setTitle("MeysamTN ZOO !");
+            mainStage.setTitle("Zoo Management App");
             mainStage.setScene(new Scene(root, 1000, 500));
             mainStage.setResizable(false);
             mainStage.show();

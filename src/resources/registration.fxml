@@ -26,7 +26,7 @@
                 <TextField fx:id="tf_reg_username" layoutX="113.0" layoutY="100.0" prefWidth="274.0" promptText="username" style="-fx-background-color: transparent; -fx-border-color: #D7D8D3; -fx-border-radius: 17;" />
             <PasswordField fx:id="pf_reg_pass" layoutX="114.0" layoutY="151.0" prefWidth="274.0" promptText="password" style="-fx-background-color: transparent; -fx-border-color: #D7D8D3; -fx-border-radius: 17;" />
             <PasswordField fx:id="pf_reg_passconf" layoutX="113.0" layoutY="200.0" prefWidth="274.0" promptText="confirm password" style="-fx-background-color: transparent; -fx-border-color: #D7D8D3; -fx-border-radius: 17;" />
-                <TextField fx:id="tf_reg_email" layoutX="113.0" layoutY="250.0" prefHeight="31.0" prefWidth="274.0" promptText="Email ex. meysam@yahoo.com" style="-fx-background-color: transparent; -fx-border-radius: 17; -fx-border-color: #D7D8D3;" />
+                <TextField fx:id="tf_reg_email" layoutX="113.0" layoutY="250.0" prefHeight="31.0" prefWidth="274.0" promptText="Email ex. meysamtaherinia76@gmail.com" style="-fx-background-color: transparent; -fx-border-radius: 17; -fx-border-color: #D7D8D3;" />
                 <TextField fx:id="tf_reg_name" layoutX="113.0" layoutY="300.0" prefWidth="274.0" promptText="name" style="-fx-background-color: transparent; -fx-border-radius: 17; -fx-border-color: #D7D8D3;" />
                 <TextField fx:id="tf_reg_lastname" layoutX="113.0" layoutY="350.0" prefWidth="274.0" promptText="last name" style="-fx-background-color: transparent; -fx-border-radius: 17; -fx-border-color: #D7D8D3;">
                     <opaqueInsets>

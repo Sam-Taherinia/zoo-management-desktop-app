@@ -34,7 +34,7 @@
                     <opaqueInsets>
                         <Insets />
                     </opaqueInsets></TextField>
-                <TextField fx:id="tf_email" layoutX="113.0" layoutY="250.0" prefHeight="31.0" prefWidth="274.0" promptText="Email ex. meysam@yahoo.com" style="-fx-background-color: transparent; -fx-border-radius: 17; -fx-border-color: #000000;" />
+                <TextField fx:id="tf_email" layoutX="113.0" layoutY="250.0" prefHeight="31.0" prefWidth="274.0" promptText="Email ex. meysamtaherinia76@gmail.com" style="-fx-background-color: transparent; -fx-border-radius: 17; -fx-border-color: #000000;" />
             <PasswordField fx:id="pf_pass" layoutX="114.0" layoutY="300.0" prefHeight="31.0" prefWidth="274.0" promptText="new password" style="-fx-background-color: transparent; -fx-border-radius: 17; -fx-border-color: #000000;" />
             <PasswordField fx:id="pf_pass_conf" layoutX="114.0" layoutY="350.0" prefHeight="31.0" prefWidth="274.0" promptText="confirm new password" style="-fx-background-color: transparent; -fx-border-radius: 17; -fx-border-color: #000000;" />
                 <Button fx:id="btn_changepass_conf" layoutX="156.0" layoutY="425.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="189.0" style="-fx-background-color: transparent; -fx-border-color: #000000; -fx-border-radius: 17;" text="Change password" textFill="WHITE" />
