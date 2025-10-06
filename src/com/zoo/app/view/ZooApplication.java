@@ -27,7 +27,7 @@ public class ZooApplication extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("/resources/sample.fxml"));
-        primaryStage.setTitle("MeysamTN ZOO !");
+        primaryStage.setTitle("Sam's Zoo App");
         primaryStage.setScene(new Scene(root, 1000, 500));
         primaryStage.setResizable(false);
         primaryStage.show();
