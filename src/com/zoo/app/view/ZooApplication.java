@@ -212,7 +212,7 @@ public class ZooApplication extends Application {
     // Migration methods from text files
     private static void migrateVisitorsFromTextFile() {
         try {
-            FileReader fr = new FileReader("src/IO files/Visitors.txt");
+            FileReader fr = new FileReader("src/IO files/Visitors.txt"); // TODO
             BufferedReader br = new BufferedReader(fr);
             String line;
             
@@ -238,7 +238,7 @@ public class ZooApplication extends Application {
 
     private static void migrateManagersFromTextFile() {
         try {
-            FileReader fr = new FileReader("src/IO files/Managers.txt");
+            FileReader fr = new FileReader("src/IO files/Managers.txt"); // TODO
             BufferedReader br = new BufferedReader(fr);
             String line;
             
@@ -264,7 +264,7 @@ public class ZooApplication extends Application {
 
     private static void migrateZookeepersFromTextFile() {
         try {
-            FileReader fr = new FileReader("src/IO files/Zookeepers.txt");
+            FileReader fr = new FileReader("src/IO files/Zookeepers.txt"); // TODO
             BufferedReader br = new BufferedReader(fr);
             String line;
             
@@ -290,7 +290,7 @@ public class ZooApplication extends Application {
 
     private static void migrateSuperAdminFromTextFile() {
         try {
-            FileReader fr = new FileReader("src/IO files/Superadmin.txt");
+            FileReader fr = new FileReader("src/IO files/Superadmin.txt"); // TODO
             BufferedReader br = new BufferedReader(fr);
             String line;
             
@@ -315,7 +315,7 @@ public class ZooApplication extends Application {
 
     private static void migrateTicketsFromTextFile() {
         try {
-            FileReader fr = new FileReader("src/IO files/Tickets.txt");
+            FileReader fr = new FileReader("src/IO files/Tickets.txt"); // TODO
             BufferedReader br = new BufferedReader(fr);
             String line;
             
@@ -339,7 +339,7 @@ public class ZooApplication extends Application {
 
     private static void migrateBirdsFromTextFile() {
         try {
-            FileReader fr = new FileReader("src/IO files/Birds.txt");
+            FileReader fr = new FileReader("src/IO files/Birds.txt"); // TODO
             BufferedReader br = new BufferedReader(fr);
             String line;
             
@@ -363,7 +363,7 @@ public class ZooApplication extends Application {
 
     private static void migrateAquaticsFromTextFile() {
         try {
-            FileReader fr = new FileReader("src/IO files/Aquatics.txt");
+            FileReader fr = new FileReader("src/IO files/Aquatics.txt"); // TODO
             BufferedReader br = new BufferedReader(fr);
             String line;
             
@@ -387,7 +387,7 @@ public class ZooApplication extends Application {
 
     private static void migrateWildsFromTextFile() {
         try {
-            FileReader fr = new FileReader("src/IO files/Wilds.txt");
+            FileReader fr = new FileReader("src/IO files/Wilds.txt"); // TODO
             BufferedReader br = new BufferedReader(fr);
             String line;
             

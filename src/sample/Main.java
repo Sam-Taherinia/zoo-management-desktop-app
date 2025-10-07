@@ -60,7 +60,7 @@ public class Main extends Application {
 
     public static void writeVisitors() throws IOException {
         String line;
-        FileWriter fw = new FileWriter("src/IO files/Visitors.txt");
+        FileWriter fw = new FileWriter("src/IO files/Visitors.txt"); // TODO
         BufferedWriter bw = new BufferedWriter(fw);
         for (Visitor v : visitorsArrayList) {
             line = v.getName() + "     " + v.getID() + "     " + v.getLastName() + "     " + v.getUsername() + "     " + v.getPassword() + "     " + v.getEmailAddress()
@@ -75,7 +75,7 @@ public class Main extends Application {
 
     public static void writeSuperAdmin() throws IOException {
         String line;
-        FileWriter fw = new FileWriter("src/IO files/SuperAdmin.txt");
+        FileWriter fw = new FileWriter("src/IO files/SuperAdmin.txt"); // TODO
         BufferedWriter bw = new BufferedWriter(fw);
             line = superadmin.getName() +
                     "     " +
@@ -103,7 +103,7 @@ public class Main extends Application {
 
     public static void writeManagers() throws IOException {
         String line;
-        FileWriter fw = new FileWriter("src/IO files/Managers.txt");
+        FileWriter fw = new FileWriter("src/IO files/Managers.txt"); // TODO
         BufferedWriter bw = new BufferedWriter(fw);
         for (Manager m : managersArrayList) {
             line = m.getName() +
@@ -130,7 +130,7 @@ public class Main extends Application {
 
     public static void writeZookeepers() throws IOException {
         String line;
-        FileWriter fw = new FileWriter("src/IO files/Zookeepers.txt");
+        FileWriter fw = new FileWriter("src/IO files/Zookeepers.txt"); // TODO
         BufferedWriter bw = new BufferedWriter(fw);
         for (ZooKeeper z : zookeepersArrayList) {
             line = z.getName() +
@@ -161,7 +161,7 @@ public class Main extends Application {
 
     public static void writeTickets() throws IOException {
         String line;
-        FileWriter fw = new FileWriter("src/IO files/Tickets.txt");
+        FileWriter fw = new FileWriter("src/IO files/Tickets.txt"); // TODO
         BufferedWriter bw = new BufferedWriter(fw);
         for (Ticket t : tickets) {
 
@@ -183,7 +183,7 @@ public class Main extends Application {
 
     public static void writeBirds() throws IOException {
         String line;
-        FileWriter fw = new FileWriter("src/IO files/Birds.txt");
+        FileWriter fw = new FileWriter("src/IO files/Birds.txt"); // TODO
         BufferedWriter bw = new BufferedWriter(fw);
         for (Bird b : birdsArrayList) {
             line = b.getName() +
@@ -212,7 +212,7 @@ public class Main extends Application {
 
     public static void writeWilds() throws IOException {
         String line;
-        FileWriter fw = new FileWriter("src/IO files/Wilds.txt");
+        FileWriter fw = new FileWriter("src/IO files/Wilds.txt"); // TODO
         BufferedWriter bw = new BufferedWriter(fw);
         for (Wild w : wildsArrayList) {
             line = w.getName() +
@@ -241,7 +241,7 @@ public class Main extends Application {
 
     public static void writeAquatics() throws IOException {
         String line;
-        FileWriter fw = new FileWriter("src/IO files/Aquatics.txt");
+        FileWriter fw = new FileWriter("src/IO files/Aquatics.txt"); // TODO
         BufferedWriter bw = new BufferedWriter(fw);
         for (Aquatic a : aquaticsArrayList) {
 
@@ -277,7 +277,7 @@ public class Main extends Application {
 
 
     public static void readVisitors() throws Exception {
-        FileReader fr = new FileReader("src/IO files/Visitors.txt");
+        FileReader fr = new FileReader("src/IO files/Visitors.txt"); // TODO
         BufferedReader br = new BufferedReader(fr);
         String line, str[];
 
@@ -291,7 +291,7 @@ public class Main extends Application {
     }
 
     public static void readManager() throws Exception {
-        FileReader fr = new FileReader("src/IO files/Managers.txt");
+        FileReader fr = new FileReader("src/IO files/Managers.txt"); // TODO
         BufferedReader br = new BufferedReader(fr);
         String line, str[];
 
@@ -305,7 +305,7 @@ public class Main extends Application {
     }
 
     public static void readZookeepers() throws Exception {
-        FileReader fr = new FileReader("src/IO files/Zookeepers.txt");
+        FileReader fr = new FileReader("src/IO files/Zookeepers.txt"); // TODO
         BufferedReader br = new BufferedReader(fr);
         String line, str[];
 
@@ -319,7 +319,7 @@ public class Main extends Application {
     }
 
     public static void readTickets() throws Exception {
-        FileReader fr = new FileReader("src/IO files/Tickets.txt");
+        FileReader fr = new FileReader("src/IO files/Tickets.txt"); // TODO
         BufferedReader br = new BufferedReader(fr);
         String line, str[];
 
@@ -333,7 +333,7 @@ public class Main extends Application {
     }
 
     public static void readBirds() throws Exception {
-        FileReader fr = new FileReader("src/IO files/Birds.txt");
+        FileReader fr = new FileReader("src/IO files/Birds.txt"); // TODO
         BufferedReader br = new BufferedReader(fr);
         String line, str[];
 
@@ -348,7 +348,7 @@ public class Main extends Application {
 
     public static void readAquatics() throws Exception {
 
-        FileReader fr = new FileReader("src/IO files/Aquatics.txt");
+        FileReader fr = new FileReader("src/IO files/Aquatics.txt"); // TODO
         BufferedReader br = new BufferedReader(fr);
         String line, str[];
 
@@ -362,7 +362,7 @@ public class Main extends Application {
     }
 
     public static void readWilds() throws Exception {
-        FileReader fr = new FileReader("src/IO files/Wilds.txt");
+        FileReader fr = new FileReader("src/IO files/Wilds.txt"); // TODO
         BufferedReader br = new BufferedReader(fr);
         String line, str[];
 
@@ -376,7 +376,7 @@ public class Main extends Application {
     }
 
     public static void readSuperAdminInfo() throws Exception {
-        FileReader fr = new FileReader("src/IO files/SuperAdmin.txt");
+        FileReader fr = new FileReader("src/IO files/SuperAdmin.txt"); // TODO
         BufferedReader br = new BufferedReader(fr);
         String line, str[];
 
